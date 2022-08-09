@@ -22,10 +22,11 @@
     <link rel="stylesheet" href="./assets/css/main/rating.css">
     <link rel="stylesheet" href="./assets/css/main/subcribe.css">
     <link rel="stylesheet" href="./assets/css/main/footer.css">
+    <link rel="stylesheet" href="./assets/css/main/auth.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/font.css">
 </head>
-<body style="margin-bottom: 500px;">
+<body>
     <div class="header">
         <div class="grid wide">
             <div class="header__container">
@@ -54,9 +55,9 @@
                     </ul>
                 </div>
                 <div class="header__account">
-                    <a href="" class="account-link login-link">sign in</a>
+                    <a href="#login" class="account-link login-link">sign in</a>
                     <button class="btn btn--white">
-                        <a href="" class="btn-link">sign up</a>
+                        <a href="#login" class="btn-link">sign up</a>
                     </button>
                 </div>
             </div>
@@ -513,6 +514,111 @@
                             </li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="login" class="auth-form">
+        <div class="form-login">
+            <div class="row">
+                <input type="checkbox" name=""  id="login-gg">
+                <div class="login-left">
+                    <div class="auth-bg">
+                        <img class="auth-bg-img" src="./assets/img/Illustration 2.png" alt="">
+                    </div>
+                </div>
+                <div class="login-right">
+                    <h1 class="auth-heading">Login</h1>
+                    <span class="auth-text">Enter your credential to access your account.</span>
+                    <form action="#" class="signup-form" autocomplete="off">
+                        <label for="email" class="signup-label">Email Address</label>
+                        <input type="email" id="email" class="signup-input" placeholder="email@domain.com">
+                        <label for="password" class="signup-label">Password</label>
+                        <input type="password" id="passqord" class="signup-input" placeholder="Password">
+                        <button class="auth-submit">Login</button>
+                    </form>
+                    <div class="auth-or"><span>Or</span></div>
+                    <label for="login-gg" class="auth-btn">
+                        <i class="phone-icon fa-solid fa-phone"></i>
+                        Login with Phone Number
+                    </label>
+                    <p class="auth-already">
+                        <span>Don’t have an account? </span>
+                        <a href="#regis" class="switch-regis">Register here.</a>
+                    </p>
+                </div>
+                <div class="regis-right">
+                    <h1 class="auth-heading">Login</h1>
+                    <span class="auth-text">Enter your credential to access your account.</span>
+                    <form action="#" class="signup-form" autocomplete="off">
+                        <label for="tel" class="signup-label">Phone Number</label>
+                        <input type="tel" id="tel" class="signup-input" placeholder="Eg: 0123456789">
+                        <label for="password" class="signup-label">Password</label>
+                        <input type="password" id="passqord" class="signup-input" placeholder="Password">
+                        <button class="auth-submit">Login</button>
+                    </form>
+                    <div class="auth-or"><span>Or</span></div>
+                    <label for="login-gg" class="auth-btn">
+                        <img src="./assets/img/google-ic 1.png" alt="" class="gg-icon">
+                        Login with Google
+                    </label>
+                    <p class="auth-already">
+                        <span>Don’t have an account? </span>
+                        <a href="#regis" class="switch-regis">Register here.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="regis" class="auth-form">
+        <div class="form-login">
+            <div class="row">
+                <input type="checkbox" name=""  id="regis-gg">
+                <div class="login-left">
+                    <div class="auth-bg">
+                        <img class="auth-bg-img" src="./assets/img/Illustration 2.png" alt="">
+                    </div>
+                </div>
+                <div class="login-right">
+                    <h1 class="auth-heading">Register</h1>
+                    <span class="auth-text">Enter your credential to access your account.</span>
+                    <form action="#" class="signup-form" autocomplete="off">
+                        <label for="email" class="signup-label">Email Address</label>
+                        <input type="email" id="email" class="signup-input" placeholder="email@domain.com">
+                        <label for="password" class="signup-label">Password</label>
+                        <input type="password" id="passqord" class="signup-input" placeholder="Password">
+                        <button class="auth-submit">Register</button>
+                    </form>
+                    <div class="auth-or"><span>Or</span></div>
+                    <label for="regis-gg" class="auth-btn">
+                        <i class="phone-icon fa-solid fa-phone"></i>
+                        Register with Phone Number
+                    </label>
+                    <p class="auth-already">
+                        <span>Do have an account? </span>
+                        <a href="#login" class="switch-regis">Login here.</a>
+                    </p>
+                </div>
+                <div class="regis-right">
+                    <h1 class="auth-heading">Register</h1>
+                    <span class="auth-text">Enter your credential to access your account.</span>
+                    <form action="#" class="signup-form" autocomplete="off">
+                        <label for="tel" class="signup-label">Phone Number</label>
+                        <input type="tel" id="tel" class="signup-input" placeholder="Eg: 0123456789">
+                        <label for="password" class="signup-label">Password</label>
+                        <input type="password" id="passqord" class="signup-input" placeholder="Password">
+                        <button class="auth-submit">Register</button>
+                    </form>
+                    <div class="auth-or"><span>Or</span></div>
+                    <label for="regis-gg" class="auth-btn">
+                        <img src="./assets/img/google-ic 1.png" alt="" class="gg-icon">
+                        Register with Google
+                    </label>
+                    <p class="auth-already">
+                        <span>Do have an account? </span>
+                        <a href="" class="switch-regis">Login here.</a>
+                    </p>
                 </div>
             </div>
         </div>
