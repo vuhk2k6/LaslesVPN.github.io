@@ -1,0 +1,49 @@
+#home {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+}
+
+#home .row {
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+#home .col {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.home__heading {
+    font-size: 5rem;
+    line-height: 7rem;
+    color: var(--head-color);
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.home__heading span {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 7rem;
+    color: var(--head-color);
+}
+
+.home__sub-heading {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.home__sub-heading span {
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.illustration-img {
+    width: 612px;
+}

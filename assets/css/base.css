@@ -1,0 +1,178 @@
+:root {
+    --header-height: 120px;
+    --bg-color: #F6F6F6;
+    --text-color: #4F5665;
+    --head-color: #0B132A;
+    --border-color: #EEEFF2;
+    --border-orange: #F53855;
+    --border-orange-second: #F53838;
+    --border-grey: #DDDDDD;
+    --white-color: #fff;
+}
+
+* {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;    
+    font-family: 'Rubik', sans-serif;
+    /* background-color: var(--bg-color); */
+}
+
+.bd-none {
+    border: 0 !important;
+}
+
+.second__heading {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    color: var(--head-color);
+    font-weight: 500;
+}
+
+.text {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.btn {
+    outline: none;
+    border: 2px solid var(--border-orange);
+    border-radius: 5rem;
+    min-width: 150px;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+.btn-link {
+    font-size: 1.6rem;
+    padding: 12.5px;
+    font-weight: 500; 
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    color: var(--white-color);
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.btn--white .btn-link {
+    color: var(--border-orange-second);
+}
+
+.btn--white {
+    background-color: var(--white-color);
+}
+
+.btn--white:hover {
+    background-color: var(--border-orange-second);
+}
+
+.btn--white:hover .btn-link {
+    color: var(--white-color);
+}
+
+.btn--orange {
+    background-color: var(--white-color);
+}
+
+.btn--orange .btn-link {
+    color: var(--border-orange);
+}
+
+.btn--active {
+    background-color: var(--border-orange-second);
+}
+
+.btn--active .btn-link {
+    color: var(--white-color);
+}
+
+.btn__second {
+    background-color: var(--border-orange-second);
+    min-width: 250px;
+    outline: none;
+    border: 0;
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btn-second-link {
+    font-size: 1.6rem;
+    padding: 22px;
+    font-weight: 500; 
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    color: var(--white-color);
+    z-index: 11;
+}
+
+.btn__second:hover {
+    opacity: 0.9;
+}
+
+.btn__second::after {
+    content: "";
+    position: absolute;
+    width: 210px;
+    height: 60px;
+    top: 25px;
+    left: 20px;
+    background-color: rgba(245, 56, 56, 0.45);
+    filter: blur(54px);
+    z-index: 1;
+}
+
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

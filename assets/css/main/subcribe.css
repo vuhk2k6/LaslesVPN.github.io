@@ -1,0 +1,20 @@
+
+.subcribe {
+    display: flex;
+    bottom: -12.5rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    position: absolute;
+    background-color: var(--white-color);
+    padding: 45px 70px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+}
+
+.subcribe .second__heading {
+    text-align: left !important;
+}
+
+.subcribe .btn__second {
+    height: 62px;
+}

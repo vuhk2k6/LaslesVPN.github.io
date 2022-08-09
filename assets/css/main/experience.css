@@ -1,0 +1,39 @@
+#experience {
+    margin-bottom: 10rem;
+}
+
+#experience .row {
+    margin-left: -10rem;
+    margin-right: -10rem;
+    align-items: flex-end;
+}
+
+#experience .col {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.experience__check-icon {
+    width: 20px;
+    margin-right: 12px;
+}
+
+.experience__item {
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+}
+
+.experience__item:last-child {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.experience__sub-heading {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.experience__img {
+    width: 500px;
+}
