@@ -21,8 +21,16 @@ html {
     /* background-color: var(--bg-color); */
 }
 
+label {
+    display: block;
+}
+
 .bd-none {
     border: 0 !important;
+}
+
+.bd--active {
+    border: 2px solid var(--border-orange-second) !important;
 }
 
 .second__heading {
