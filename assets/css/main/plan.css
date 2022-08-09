@@ -8,8 +8,8 @@
 }
 
 #plan .col {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .plan__heading-box {
@@ -17,7 +17,7 @@
 }
 
 .plan__heading {
-    margin-bottom: 20px;
+    margin-bottom: 2r7;
 }
 
 .plan__item {
@@ -27,12 +27,12 @@
     align-items: center;
     border: 2px solid var(--border-grey);
     border-radius: 1rem;
-    height: 760px;
+    height: 76rem;
 }
 
 .plan__item-img {
-    width: 145px;
-    margin-top: 75px;
+    width: 14.5rem;
+    margin-top: 7.5rem;
 }
 
 .title {
@@ -53,7 +53,7 @@
 }
 
 .plan__check-icon {
-    margin-right: 20px;
+    margin-right: 2r7;
 }
 
 .block-title {

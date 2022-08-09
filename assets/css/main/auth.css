@@ -41,8 +41,8 @@
 
 .form-login {
     background-color: var(--bg-color);
-    width: 800px;
-    border-radius: 40px;
+    width: 80rem;
+    border-radius: 4rem;
     opacity: 0;
     transform: scale(.5);
     transition: all .5s;
@@ -59,7 +59,7 @@
 #login-gg:checked ~ .login-left,
 #regis-gg:checked ~ .login-left {
   z-index: 1500;
-  left: 450px;
+  left: 45rem;
 }
 
 #login-gg:checked ~ .login-left .auth-bg-img,
@@ -72,12 +72,12 @@
 
 #login-gg:checked ~ .login-right,
 #regis-gg:checked ~ .login-right {
-  right: 350px;
+  right: 35rem;
 }
 
 #login-gg:checked ~ .regis-right,
 #regis-gg:checked ~ .regis-right {
-  right: 350px;
+  right: 35rem;
   z-index: 1300;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .login-left {
-  width: 350px;
+  width: 35rem;
   position: absolute;
   z-index: 1500;
   left: 0;
@@ -99,7 +99,7 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    width: 450px;
+    width: 45rem;
     position: absolute;
     z-index: 1100;
     right: 0;
@@ -112,7 +112,7 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    width: 450px;
+    width: 45rem;
     position: absolute;
     z-index: 1200;
     background-color: var(--bg-color);
@@ -178,54 +178,6 @@
     font-weight: 400;
     margin-bottom: 3rem;
 }
-
-.signup {
-    padding: 90px 75px;
-    background-color: #fff;
-    width: 100%;
-    max-width: 600px;
-    border-radius: 30px;
-  }
-  .signup-heading {
-    font-size: 40px;
-    font-weight: bold;
-    color: #373941;
-    text-align: center;
-    margin-bottom: 35px;
-  }
-  .signup-social {
-    /* padding: 10px; */
-    border-radius: 20px;
-    display: block;
-    width: 100%;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    border: 0;
-    background-color: #4c6ff4;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    outline: none;
-    box-shadow: 0 5px 10px 0 rgba(76, 111, 244, 0.5);
-  }
-  .signup-social-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4c6ff4;
-    font-size: 30px;
-  }
-  .signup-social-text {
-    display: block;
-    font-size: 1.6rem;
-    margin: 0 auto;
-  }
   .auth-or {
     text-align: center;
     margin: 2rem 0;
@@ -234,7 +186,7 @@
   }
   .auth-or span {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--head-color);
@@ -258,7 +210,7 @@
   }
 
   .signup-label {
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--text-color);
     font-weight: 400;
     line-height: 2rem;
@@ -268,14 +220,14 @@
   .signup-input {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     border: 1px solid var(--border-color);
-    border-radius: 5px;
+    border-radius: .5rem;
     background-color: var(--white-color);
     outline: none;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
   }
   .signup-input::-webkit-input-placeholder {
     color: #b4bac0;
@@ -286,9 +238,9 @@
     font-weight: 500;
   }
   .auth-submit {
-    padding: 10px;
+    padding: 1rem;
     color: white;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-align: center;
     border: 0;
     outline: none;
@@ -299,16 +251,16 @@
     font-family: "Poppins", sans-serif;
     cursor: pointer;
     font-weight: 600;
-    box-shadow: 0 5px 10px 0 rgba(247, 24, 58, 0.1);
+    box-shadow: 0 0.5rem 1rem 0 rgba(247, 24, 58, 0.1);
   }
   .auth-already span {
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-color);
   }
   .switch-regis {
     color: var(--border-orange);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8rem;
     cursor: pointer;
   }

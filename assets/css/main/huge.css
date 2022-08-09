@@ -1,12 +1,10 @@
 #huge {
     margin-top: 15rem;
     margin-bottom: 5rem;
-    margin-right: -3rem;
-    margin-left: -3rem;
 }
 
 #huge .row {
-    height: 210px;
+    height: 21rem;
 }
 
 #huge .col {
@@ -24,17 +22,17 @@
 
 .huge__heading .second__heading {
     text-align: center;
-    width: 385px;
+    width: 38.5rem;
 }
 
 .huge__heading .home__sub-heading {
-    width: 550px;
+    width: 55rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2r;
     margin-bottom: 155px;
 }
 
 .social__img {
-    width: 200px;
+    width: 20rem;
 }
 

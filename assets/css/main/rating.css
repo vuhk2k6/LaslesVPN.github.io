@@ -7,26 +7,26 @@
 }
 
 #rating .second__heading {
-    width: 360px;
+    width: 36rem;
     text-align: center;
     margin-bottom: 2rem;
 }
 
 #rating .text {
-    width: 555px;
+    width: 55.5rem;
     text-align: center;
 }
 
 #rating .row {
     margin-top: 6rem;
-    margin-right: -25px;
-    margin-left: -25px;
+    margin-right: -2.5rem;
+    margin-left: -2.5rem;
     margin-bottom: 30rem;
 }
 
 #rating .col {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 2.5r-2.5rem;
+    padding-right: 2.5r-2.5rem;
 }
 
 .rating__item {
@@ -149,7 +149,7 @@
     display: flex !important;
     font-size: 0;
     position: absolute;
-    gap: 0 10px;
+    gap: 0 1rem;
 }
 
 .slick-active button{
@@ -158,8 +158,8 @@
 }
 
 .slick-dots li button {
-    width: 15px;
-    height: 15px;
+    width: 1.5rem;
+    height: 1.5rem;
     border: 0;
     border-radius: 50%;
     cursor: pointer;

@@ -14,26 +14,26 @@
 }
 
 .experience__check-icon {
-    width: 20px;
-    margin-right: 12px;
+    width: 2rem;
+    margin-right: 1.2rem;
 }
 
 .experience__item {
     align-items: center;
     display: flex;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 
 .experience__item:last-child {
-    margin-top: 10px;
+    margin-top: 1rem;
     margin-bottom: 0;
 }
 
 .experience__sub-heading {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .experience__img {
-    width: 500px;
+    width: 50rem;
 }

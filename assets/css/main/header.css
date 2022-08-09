@@ -11,12 +11,13 @@
 }
 
 .header__logo {
-    width: 260px;
+    width: 26rem;
+    animation: moveBottom linear .5s 0s 1 backwards;
     text-align: center;
 }
 
 .header__logo-img {
-    width: 149px;
+    width: 15rem;
 }
 
 .header__navigation {
@@ -32,6 +33,22 @@
 
 .nav__item {
     display: inline-block;
+}
+
+.nav__item-1 {    
+    animation: moveBottom linear .5s .25s 1 backwards;
+}
+.nav__item-2 {
+    animation: moveBottom linear .5s .5s 1 backwards;
+}
+.nav__item-3 {
+    animation: moveBottom linear .5s 1.25s 1 backwards;
+}
+.nav__item-4 {
+    animation: moveBottom linear .5s 1.5s 1 backwards;
+}
+.nav__item-5 {
+    animation: moveBottom linear .5s 1.75s 1 backwards;
 }
 
 .nav__item-link {
@@ -58,5 +75,6 @@
     text-transform: capitalize;
     display: block;
     padding: 14.5px 20px;
+    animation: moveBottom linear 1s 2s 1 backwards;
 }
 

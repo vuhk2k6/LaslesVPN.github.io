@@ -5,11 +5,11 @@
 }
 
 #footer .home__sub-heading {
-    width: 340px;
+    width: 34rem;
 }
 
 .footer__logo-img {
-    width: 150px;
+    width: 15rem;
     margin-bottom: 2rem;
 }
 
@@ -20,19 +20,19 @@
 
 .footer__socials-link {
     display: block;
-    width: 25px;
-    height: 25px;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     background-color: var(--border-orange-second);
     position: relative;
 }
 
 .footer__socials-icon {
-    width: 35px;
-    height: 35px;
+    width: 3.5rem;
+    height: 3.5rem;
     position: absolute;
-    top: -5px;
-    left: -5px;
+    top: -0.5rem;
+    left: -0.5rem;
     border-radius: 50%;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
 }
